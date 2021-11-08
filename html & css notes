@@ -1,0 +1,38 @@
+HTML
+index.html - home page of websites
+! (tab) - generates HTML boilerplate  
+<html></html>  opening tag, closing tag
+<head> - give browser information about page
+<title> - gives a title on the bar
+<body> - gives information about elements on a page
+<img> - image element
+src=”” - attribute, path to our image (ex: images/picture.jpg)
+alt=”” attribute, alternate text if image cannot be displayed
+<p> - paragraph to display text 
+<style> - where you write css rules to give style 
+img {
+   width: 100px;
+   border-radius: 10px;
+   float: left;
+   margin-right: 10px;
+}
+Border radius half the width - round image
+class=”” attribute, categorizes where we can separate elements of the same type 
+class=”username”, use .username to reference username class
+lang=”” attribute, sets languages for page (en for english)
+https://validator.w3.org/ - validator for HTML
+https://jigsaw.w3.org/css-validator/ - validator for CSS
+<meta> - gives information about a webpage
+charset=”” attribute, UTF-8 character set that represents almost all characters in the world
+name=”” attribute, gives name (ex: viewport, keywords, description)
+content=”” attribute, gives content 
+<em> - emphasizes content 
+<strong> - represents strong importance or urgentness
+<h1> <h2> <h3> <h4> <h5> <h6> - represents headings, with h1 being most important and h6 being least important
+<h1> - only have a single h1 as it tells what the page is about 
+&; - entities (examples are &lt; for less than, &gt; for greater than, and &copy; for copyright symbol)
+
+
+
+
+
