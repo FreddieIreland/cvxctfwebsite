@@ -31,8 +31,22 @@ content=”” attribute, gives content
 <h1> <h2> <h3> <h4> <h5> <h6> - represents headings, with h1 being most important and h6 being least important
 <h1> - only have a single h1 as it tells what the page is about 
 &; - entities (examples are &lt; for less than, &gt; for greater than, and &copy; for copyright symbol)
-
-
-
-
+full entity list - https://dev.w3.org/html5/html-author/charref
+lorem(#) - generates dummy text with # number of words 
+&nbsp; - non breaking spaces used to make sure words are on the same line 
+<a> - anchor element, used to create link
+href="" - hypertext references, url, link attribute 
+relative url - where is it relative to the folder, about.html, company/about.html, styles/styles.css, ../index
+absolute url - starts with root of website, /index.html,  
+download - attribute to used to download things like images 
+id="" - gives an identifier to an element, can only be for one element
+#(id) - can be used in hyperlinks to jump straight to a section (href="section-css")
+# - can be used in hyperlinks to jump to the top of the page 
+https:// - protocol, used to reference external website
+target="" - attribute for hrefs, set it to _blank to open sites in a new tab
+mailto:email - used in hrefs to open mail client with email address filled in 
+unsplash.com - website for tons of free images 
+give descriptive names for images for better search engine optimization
+alt="" - attribute can also be used for visually impaired people and the use of screen readers, should always be filled
+object-fit - css property that
 
