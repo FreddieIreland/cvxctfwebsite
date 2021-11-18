@@ -1,0 +1,78 @@
+HTML
+index.html - home page of websites
+! (tab) - generates HTML boilerplate  
+<html></html>  opening tag, closing tag
+<head> - give browser information about page
+<title> - gives a title on the bar
+<body> - gives information about elements on a page
+<img> - image element
+src=”” - attribute, path to our image (ex: images/picture.jpg)
+alt=”” attribute, alternate text if image cannot be displayed
+<p> - paragraph to display text 
+<style> - where you write css rules to give style 
+img {
+   width: 100px;
+   border-radius: 10px;
+   float: left;
+   margin-right: 10px;
+}
+Border radius half the width - round image
+class=”” attribute, categorizes where we can separate elements of the same type 
+class=”username”, use .username to reference username class
+lang=”” attribute, sets languages for page (en for english)
+https://validator.w3.org/ - validator for HTML
+https://jigsaw.w3.org/css-validator/ - validator for CSS
+<meta> - gives information about a webpage
+charset=”” attribute, UTF-8 character set that represents almost all characters in the world
+name=”” attribute, gives name (ex: viewport, keywords, description)
+content=”” attribute, gives content 
+<em> - emphasizes content 
+<strong> - represents strong importance or urgentness
+<h1> <h2> <h3> <h4> <h5> <h6> - represents headings, with h1 being most important and h6 being least important
+<h1> - only have a single h1 as it tells what the page is about 
+&; - entities (examples are &lt; for less than, &gt; for greater than, and &copy; for copyright symbol)
+full entity list - https://dev.w3.org/html5/html-author/charref
+lorem(#) - generates dummy text with # number of words 
+&nbsp; - non breaking spaces used to make sure words are on the same line 
+<a> - anchor element, used to create link
+href="" - hypertext references, url, link attribute 
+relative url - where is it relative to the folder, about.html, company/about.html, styles/styles.css, ../index
+absolute url - starts with root of website, /index.html,  
+download - attribute to used to download things like images 
+id="" - gives an identifier to an element, can only be for one element
+#(id) - can be used in hyperlinks to jump straight to a section (href="section-css")
+# - can be used in hyperlinks to jump to the top of the page 
+https:// - protocol, used to reference external website
+target="" - attribute for hrefs, set it to _blank to open sites in a new tab
+mailto:email - used in hrefs to open mail client with email address filled in 
+unsplash.com - website for tons of free images 
+give descriptive names for images for better search engine optimization
+alt="" - attribute can also be used for visually impaired people and the use of screen readers, should always be filled
+object-fit - css property that
+pexels.com - free photos and videos
+<video> - similar to image element but for videos, has a src too
+controls - boolean attribute, shows control buttons, include it for true, don't include it for false  
+autoplay - boolean attribute, automatically starts video when page is loaded
+loop - boolean attribute, video will automatically loop
+caniuse.com - how different browsers support various html / css features
+Fallback text - Add to videos in case browser cannot load video, ex: Your browser does not support videos 
+<ul> - unorderd list, lists of items where order does not matter (implementing navigation menus)
+<ol> - ordered list, list of items where order matters  (recipes, steps, etc.)
+<li> - list item, the individual items that can be put into a list
+list-style-type - used for bullet points in an <li> (ex: square, none)
+zen coding - li*3 will give 3 list items, ul>li*3 will give 3 list items in a unordered list
+<dl> - description list
+<dt> - description term
+<dd> - description detail
+<table> - element used to display tabular data 
+<tr> - table row element
+<td> - table datacell element 
+border: 1px solid grey;
+DRY - DON'T REPEAT YOURSELF (ex: use table, tr for styling and change the styles only once)
+border-collapse: collapse (removes lines)
+<thead> - table head element, used for the labels in a table
+<tbody> - table body element, used for the data in a table 
+colspan - attribute for collum span, default value is 1, shows how many collums something should span
+<tfoot> - table footer element, used for the ending cells of a table, summarizing data
+
+NEXT SECTION - CONTAINERS
