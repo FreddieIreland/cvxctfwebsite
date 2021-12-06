@@ -74,5 +74,17 @@ border-collapse: collapse (removes lines)
 <tbody> - table body element, used for the data in a table 
 colspan - attribute for collum span, default value is 1, shows how many collums something should span
 <tfoot> - table footer element, used for the ending cells of a table, summarizing data
+<div> - container element, used for things like navigation bars
+block-level elememts - start on a new line and fill up the entire available space, ex: divs
+<span> - contaner element, inline element
+inline element - does not take up entire width of page
+<article> - container element, independent  and self-contained (ex: forum post, comment, review)
+<figure> - container element, no visual characteristics and is used to contain figures
+<figcaption> - caption element for figure elements
+<time> - container element for using the time
+datetime="" - attribute for the time, (ex: 2021-12-05 17:00) 
+<nav> - element for navigation bars
+<section> - element used to group related content
+<aside> - element that represents content indirectly related to what is on the page (ex: side bars)
 
-NEXT SECTION - CONTAINERS
+NEXT SECTION - PROVIDING CSS
